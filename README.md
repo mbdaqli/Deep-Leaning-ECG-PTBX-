@@ -133,33 +133,6 @@ pip install neurokit2 tensorflow pandas numpy matplotlib seaborn wfdb scipy scik
 python ecg_analysis.py
 ```
 
-## Project Structure
-
-```
-ecg-ptbxl-analysis/
-│
-├── notebooks/
-│   └── ecg_analysis.ipynb           # Main Kaggle notebook
-│
-├── src/
-│   ├── data_loader.py               # PTB-XL dataset loading utilities
-│   ├── signal_processing.py         # ECG cleaning and R-peak detection
-│   ├── morphology_detection.py      # P-wave, QRS, T-wave annotation
-│   ├── models.py                    # CNN-LSTM and CNN architectures
-│   └── visualization.py             # Plotting functions
-│
-├── results/
-│   ├── plots/                       # Generated visualizations
-│   ├── models/                      # Saved trained models
-│   └── reports/                     # Analysis reports
-│
-├── docs/
-│   └── Mohammad_Bdaqli_ECG_TASK.pdf # Project report for Professor Luo
-│
-├── README.md
-└── requirements.txt
-```
-
 
 The methodology emphasizes practical implementation while maintaining rigorous scientific standards expected in biomedical signal processing research.
 
@@ -180,14 +153,9 @@ The methodology emphasizes practical implementation while maintaining rigorous s
 2. NeuroKit2: A Python Toolbox for Neurophysiological Signal Processing
 3. PhysioNet: PTB-XL ECG Database - https://physionet.org/content/ptb-xl/
 
-
-## 📧 Contact
-
-**Mohammad Bdaqli**  
-
 ---
 
-## 📄 License
+## License
 
 This project is for academic purposes. The PTB-XL dataset is used under the terms specified by PhysioNet.
 
