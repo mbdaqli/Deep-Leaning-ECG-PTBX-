@@ -1,4 +1,4 @@
-# Deep-Leaning-ECG-PTBX-
+# Deep-Leaning-ECG-PTBX
 # ECG Signal Analysis: Normal vs Myocardial Infarction Classification
 
 **Visual Pattern Recognition for ECG**  
