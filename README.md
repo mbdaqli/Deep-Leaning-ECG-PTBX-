@@ -1,18 +1,17 @@
 # Deep-Leaning-ECG-PTBX-
 # ECG Signal Analysis: Normal vs Myocardial Infarction Classification
 
-**PhD Challenge Project - Visual Pattern Recognition for ECG**  
+**Visual Pattern Recognition for ECG**  
 **Author:** Mohammad Bdaqli  
-**Supervisor:** Professor Jake Luo  
 **Date:** November 2024
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project addresses visual pattern recognition challenges in ECG signal analysis, specifically focusing on distinguishing between Normal and Myocardial Infarction (MI) patients using the PTB-XL ECG database. The study implements a comprehensive pipeline for R-peak detection, morphology annotation, and pathological pattern visualization.
 
-## 🎯 Research Questions
+## Research Questions
 
 This project investigates three critical research questions:
 
@@ -20,7 +19,7 @@ This project investigates three critical research questions:
 2. **Morphology Annotation**: Once R peaks are identified, how can we detect and annotate other morphological features (P-wave, QRS complex, T-wave)?
 3. **Pathological Visualization**: How can we visualize and compare deformed MI morphology against normal baseline patterns?
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [PTB-XL ECG Dataset on Kaggle](https://www.kaggle.com/datasets/khyeh0719/ptb-xl-dataset/versions/1)
 
@@ -33,7 +32,7 @@ This project investigates three critical research questions:
 
 > **Note:** This version differs slightly from the latest PhysioNet version (9,514 Normal, 5,469 MI) due to availability and download speed considerations.
 
-## 🔬 Methodology
+## Methodology
 
 ### Phase 1: Signal Processing & Morphology Detection
 - **Tool:** NeuroKit2 (specialized biosignal analysis toolkit)
@@ -60,7 +59,7 @@ This project investigates three critical research questions:
   2. NeuroKit2 performs subsequent morphology annotation (P-peaks, QRS onsets/offsets, T-peaks)
 - **Validation:** Comparison between CNN predictions and NeuroKit2 baseline
 
-## 🔑 Key Findings
+## Key Findings
 
 ### 1. R-Peak Detection
 - NeuroKit2 provides robust baseline detection for both Normal and MI patients
@@ -85,7 +84,7 @@ This project investigates three critical research questions:
 - Computed beat-averaged waveforms with standard deviations
 - Generated difference signals to emphasize pathological deviations
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Core Libraries:**
 - **NeuroKit2:** ECG signal processing and morphology detection
@@ -100,9 +99,9 @@ This project investigates three critical research questions:
 - **Language:** Python 3.x
 - **Hardware:** GPU-accelerated training
 
-## 📈 Results Visualization
+## Results Visualization
 
-The project generates comprehensive visualizations including:
+The project generates comprehensive visualizations, including:
 
 1. **R-Peak Detection Plots:** Identified R-peaks overlaid on ECG signals for Normal and MI samples
 2. **Morphology Annotation Plots:** Full ECG waveforms with annotated P-waves, QRS complexes, and T-waves
@@ -111,7 +110,7 @@ The project generates comprehensive visualizations including:
 5. **Morphological Difference Plot:** Difference signal (MI - Normal) highlighting pathological changes
 6. **CNN vs NeuroKit2 Comparison:** R-peak detection performance evaluation
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 ```bash
@@ -134,7 +133,7 @@ pip install neurokit2 tensorflow pandas numpy matplotlib seaborn wfdb scipy scik
 python ecg_analysis.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ecg-ptbxl-analysis/
@@ -161,19 +160,12 @@ ecg-ptbxl-analysis/
 └── requirements.txt
 ```
 
-## 🎓 Academic Context
-
-This project was completed as a challenge assignment to demonstrate proficiency in:
-- Biosignal processing techniques
-- Deep learning for time-series classification
-- Visual pattern recognition in medical signals
-- Scientific visualization and interpretation
 
 The methodology emphasizes practical implementation while maintaining rigorous scientific standards expected in biomedical signal processing research.
 
-## 🔍 Challenges & Solutions
+## Challenges & Solutions
 
-**Challenge 1:** Some PTB-XL records had unexpected formats causing reshape errors
+**Challenge 1:** Some PTB-XL records had unexpected formats, causing reshape errors
 - **Solution:** Implemented robust error handling and data validation
 
 **Challenge 2:** Discrete wavelet transform delineation method failed
@@ -188,17 +180,10 @@ The methodology emphasizes practical implementation while maintaining rigorous s
 2. NeuroKit2: A Python Toolbox for Neurophysiological Signal Processing
 3. PhysioNet: PTB-XL ECG Database - https://physionet.org/content/ptb-xl/
 
-## 🤝 Acknowledgments
-
-- **Professor Jake Luo** for providing this challenging and educational project
-- **PhysioNet** for making the PTB-XL dataset publicly available
-- **NeuroKit2 developers** for the excellent biosignal processing toolkit
 
 ## 📧 Contact
 
 **Mohammad Bdaqli**  
-PhD Student  
-[Contact Information]
 
 ---
 
