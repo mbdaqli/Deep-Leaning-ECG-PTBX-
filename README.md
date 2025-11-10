@@ -147,7 +147,7 @@ The methodology emphasizes practical implementation while maintaining rigorous s
 **Challenge 3:** Some samples exhibited ambiguous morphology
 - **Solution:** Multiple sampling iterations to select representative examples
 
-## 📚 References
+## References
 
 1. Wagner, P., et al. (2020). PTB-XL, a large publicly available electrocardiography dataset. *Scientific Data*, 7(1), 154.
 2. NeuroKit2: A Python Toolbox for Neurophysiological Signal Processing
@@ -155,10 +155,3 @@ The methodology emphasizes practical implementation while maintaining rigorous s
 
 ---
 
-## License
-
-This project is for academic purposes. The PTB-XL dataset is used under the terms specified by PhysioNet.
-
----
-
-*For detailed methodology and results, please refer to the [full project report](docs/Mohammad_Bdaqli_ECG_TASK.pdf).*
