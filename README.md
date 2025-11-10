@@ -4,7 +4,7 @@
 **Visual Pattern Recognition for ECG**  
 **Author:** Mohammad Bdaqli  
 **Date:** November 2024
-![Confusion matrix of the model](ECG1.png)
+![CNN R PEAK](ECG1.png)
 ---
 
 ## Project Overview
