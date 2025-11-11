@@ -112,28 +112,12 @@ The project generates comprehensive visualizations, including:
 5. **Morphological Difference Plot:** Difference signal (MI - Normal) highlighting pathological changes
 6. **CNN vs NeuroKit2 Comparison:** R-peak detection performance evaluation
 
-## How to Run
 
-### Prerequisites
-```bash
-pip install neurokit2 tensorflow pandas numpy matplotlib seaborn wfdb scipy scikit-learn tqdm
-```
 
 ### Dataset Setup
 1. Download the PTB-XL dataset from [Kaggle](https://www.kaggle.com/datasets/khyeh0719/ptb-xl-dataset/versions/1)
 2. Extract to your working directory
 
-### Running the Analysis
-
-**Option 1: Run on Kaggle (Recommended)**
-- Upload the notebook to Kaggle
-- Add the PTB-XL dataset
-- Run all cells
-
-**Option 2: Run Locally**
-```bash
-python ecg_analysis.py
-```
 
 
 The methodology emphasizes practical implementation while maintaining rigorous scientific standards expected in biomedical signal processing research.
