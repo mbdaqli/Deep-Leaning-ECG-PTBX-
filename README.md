@@ -3,7 +3,7 @@
 
 **Visual Pattern Recognition for ECG**  
 **Author:** Mohammad Bdaqli  
-**Date:** November 2024
+
 
 ---
 ![CNN R PEAK](ECG1.png)
